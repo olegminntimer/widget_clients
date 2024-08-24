@@ -9,6 +9,7 @@ input_data = [
     'Visa Platinum 8990922113665229',
     'Visa Gold 5999414228426353',
     'Счет 73654108430135874305',
+    'Неправильно ввели номер карты!',
 ]
 
 
@@ -17,14 +18,15 @@ def mask_account_card(account: str)->str:
 
 
     account_list = account.split()
-    return ' '.join(account_list)
+    return ' '.join(account_list[:-1])
 
     if account_list[0] == 'Неправильно':
         return account
     elif len(account_list[-1]) == 16:
-        pass
+        return get_mask_card_number(account_list[-1])
+        # return account_list[:-1] + ' ' + get_mask_card_number(account_list[-1])
     elif len(account_list[-1]) == 20:
-        pass
+        return account_list[:-1] + ' ' + get_mask_account(account_list[-1])
 
 for i in input_data:
     print(mask_account_card(i))

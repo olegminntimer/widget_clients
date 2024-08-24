@@ -34,12 +34,9 @@ def mask_account_card(account: str) -> str:
 def get_date(date_: str)->str:
     ''' Возвращает дату в формате "ДД.ММ.ГГГГ" '''
 
-    date_new = date_[:10].split("-")
+    return ".".join(date_[:10].split("-")[::-1])
 
-
-    return date_new
-
-print(get_date(date_old))
+# print(get_date(date_old))
 
 # for i in input_data:  # Тест
 #     print(mask_account_card(i))

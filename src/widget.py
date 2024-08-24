@@ -12,7 +12,19 @@ input_data = [
 ]
 
 
-def mask_account_card(accont: str)->str:
+def mask_account_card(account: str)->str:
     ''' Функция возвращает замаскированный номер '''
 
 
+    account_list = account.split()
+    return ' '.join(account_list)
+
+    if account_list[0] == 'Неправильно':
+        return account
+    elif len(account_list[-1]) == 16:
+        pass
+    elif len(account_list[-1]) == 20:
+        pass
+
+for i in input_data:
+    print(mask_account_card(i))

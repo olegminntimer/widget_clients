@@ -12,6 +12,7 @@ input_data = [
     # "Неправильно ввели номер карты!",
 ]
 
+date_old = '2024-03-11T02:26:18.671407'
 
 def mask_account_card(account: str) -> str:
     """Функция возвращает замаскированный номер"""
@@ -29,6 +30,16 @@ def mask_account_card(account: str) -> str:
     elif len(account_list[-1]) == 20:
         new_account = account_name + " " + masks.get_mask_account(account_list[-1])
     return new_account
+
+def get_date(date_: str)->str:
+    ''' Возвращает дату в формате "ДД.ММ.ГГГГ" '''
+
+    date_new = date_[:10].split("-")
+
+
+    return date_new
+
+print(get_date(date_old))
 
 # for i in input_data:  # Тест
 #     print(mask_account_card(i))

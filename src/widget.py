@@ -16,17 +16,18 @@ input_data = [
 def mask_account_card(account: str)->str:
     ''' Функция возвращает замаскированный номер '''
 
+    account_list = account.split() # Создаем список слов
 
-    account_list = account.split()
-    return ' '.join(account_list[:-1])
-
-    if account_list[0] == 'Неправильно':
+    if account_list[0] == 'Неправильно': # Выходим если введена ошибочная запись
         return account
-    elif len(account_list[-1]) == 16:
-        return get_mask_card_number(account_list[-1])
-        # return account_list[:-1] + ' ' + get_mask_card_number(account_list[-1])
-    elif len(account_list[-1]) == 20:
-        return account_list[:-1] + ' ' + get_mask_account(account_list[-1])
 
-for i in input_data:
+    account_name = ' '.join(account_list[:-1]) # Название без номер
+
+    if len(account_list[-1]) == 16: #  Для карты
+        return account_name + ' ' + masks.get_mask_card_number(account_list[-1])
+
+    if len(account_list[-1]) == 20: # Для счёта
+        return account_name + ' ' + masks.get_mask_account(account_list[-1])
+
+for i in input_data: # Тест
     print(mask_account_card(i))

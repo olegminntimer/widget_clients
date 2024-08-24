@@ -9,7 +9,7 @@ input_data = [
     "Visa Platinum 8990922113665229",
     "Visa Gold 5999414228426353",
     "Счет 73654108430135874305",
-    "Неправильно ввели номер карты!",
+    # "Неправильно ввели номер карты!",
 ]
 
 
@@ -30,6 +30,5 @@ def mask_account_card(account: str) -> str:
         new_account = account_name + " " + masks.get_mask_account(account_list[-1])
     return new_account
 
-
-for i in input_data:  # Тест
-    print(mask_account_card(i))
+# for i in input_data:  # Тест
+#     print(mask_account_card(i))

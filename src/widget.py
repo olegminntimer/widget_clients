@@ -12,14 +12,15 @@ input_data = [
     # "Неправильно ввели номер карты!",
 ]
 
-date_old = '2024-03-11T02:26:18.671407'
+date_old = "2024-03-11T02:26:18.671407"
+
 
 def mask_account_card(account: str) -> str:
     """Функция возвращает замаскированный номер"""
 
     account_list = account.split()  # Создаем список слов
-
     account_name = " ".join(account_list[:-1])  # Название без номера
+    new_account = ""
 
     if account_list[0] == "Неправильно":  # Выходим если введена ошибочная запись
         new_account = account
@@ -31,10 +32,12 @@ def mask_account_card(account: str) -> str:
         new_account = account_name + " " + masks.get_mask_account(account_list[-1])
     return new_account
 
-def get_date(date_: str)->str:
-    ''' Возвращает дату в формате "ДД.ММ.ГГГГ" '''
+
+def get_date(date_: str) -> str:
+    """Возвращает дату в формате "ДД.ММ.ГГГГ" """
 
     return ".".join(date_[:10].split("-")[::-1])
+
 
 # print(get_date(date_old))
 

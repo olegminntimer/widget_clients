@@ -15,7 +15,7 @@ input_data = [
 
 date_old = "2024-03-11T02:26:18.671407"
 
-DL = [
+dict_list_example= [
     {"id": 41428829, "state": "EXECUTED", "date": "2019-07-03T18:35:29.512364"},
     {"id": 939719570, "state": "EXECUTED", "date": "2018-06-30T02:08:58.425572"},
     {"id": 594226727, "state": "CANCELED", "date": "2018-09-12T21:27:25.241689"},
@@ -30,22 +30,22 @@ def main():
     for i in input_data:  # Тест
         print(mask_account_card(i))
 
-    list_of_dict = filter_by_state(DL)
+    list_of_dict = filter_by_state(dict_list_example)
     for i in list_of_dict:
         print(i)
     print()
 
-    list_of_dict = filter_by_state(DL, "CANCELED")
+    list_of_dict = filter_by_state(dict_list_example, "CANCELED")
     for i in list_of_dict:
         print(i)
     print()
 
-    list_of_dict = sort_by_date(DL)
+    list_of_dict = sort_by_date(dict_list_example)
     for i in list_of_dict:
         print(i)
     print()
 
-    list_of_dict = sort_by_date(DL, False)
+    list_of_dict = sort_by_date(dict_list_example, False)
     for i in list_of_dict:
         print(i)
     print()

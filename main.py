@@ -28,11 +28,26 @@ def main():
     # for i in input_data:  # Тест
     #     print(mask_account_card(i))
 
-    print(filter_by_state(DL))
-    print(filter_by_state(DL,'CANCELED'))
+    list_of_dict = filter_by_state(DL)
+    for i in list_of_dict:
+        print(i)
+    print()
 
-    print(sort_by_date(DL))
-    print(sort_by_date(DL,False))
+    list_of_dict = filter_by_state(DL,'CANCELED')
+    for i in list_of_dict:
+        print(i)
+    print()
+
+    list_of_dict = sort_by_date(DL)
+    for i in list_of_dict:
+        print(i)
+    print()
+
+    list_of_dict = sort_by_date(DL, False)
+    for i in list_of_dict:
+        print(i)
+    print()
+
 
 if __name__ == '__main__':
     main()

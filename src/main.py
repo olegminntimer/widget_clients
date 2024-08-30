@@ -2,15 +2,17 @@ from src.processing import filter_by_state, sort_by_date
 from src.widget import get_date, mask_account_card
 
 input_data = [
-    "Maestro 1596837868705199",
-    "Счет 64686473678894779589",
+    "Счёт 64686473678894779589",
+    "Счёт 646864736788q4779589",
+    "64686473678894779589",
+    "64686473678894a79589",
     "MasterCard 7158300734726758",
-    "Счет 35383033474447895560",
+    "MasterCard 7q58300734726758",
+    "Счёт 35383033474447895560",
     "Visa Classic 6831982476737658",
     "Visa Platinum 8990922113665229",
     "Visa Gold 5999414228426353",
-    "Счет 73654108430135874305",
-    # "Неправильно ввели номер карты!",
+    "Счёт 73654108430135874305",
 ]
 
 date_old = "2024-03-11T02:26:18.671407"
@@ -25,31 +27,38 @@ dict_list_example= [
 
 def main():
     """Основная функция"""
-    print(get_date(date_old))
+
+    # print(get_date(date_old))
 
     for i in input_data:  # Тест
         print(mask_account_card(i))
 
-    list_of_dict = filter_by_state(dict_list_example)
-    for i in list_of_dict:
-        print(i)
-    print()
+    # list_of_dict = filter_by_state(dict_list_example)
+    # for i in list_of_dict:
+    #     print(i)
+    # print()
+    #
+    # list_of_dict = filter_by_state(dict_list_example, "CANCELED")
+    # for i in list_of_dict:
+    #     print(i)
+    # print()
+    #
+    # list_of_dict = sort_by_date(dict_list_example)
+    # for i in list_of_dict:
+    #     print(i)
+    # print()
+    #
+    # list_of_dict = sort_by_date(dict_list_example, False)
+    # for i in list_of_dict:
+    #     print(i)
+    # print()
 
-    list_of_dict = filter_by_state(dict_list_example, "CANCELED")
-    for i in list_of_dict:
-        print(i)
-    print()
-
-    list_of_dict = sort_by_date(dict_list_example)
-    for i in list_of_dict:
-        print(i)
-    print()
-
-    list_of_dict = sort_by_date(dict_list_example, False)
-    for i in list_of_dict:
-        print(i)
-    print()
+    # i = 'a'
+    # while i != 'q':
+    #     i = input("Введи значение: ")
+    #     print(mask_account_card(i))
 
 
 if __name__ == "__main__":
+
     main()

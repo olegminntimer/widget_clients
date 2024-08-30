@@ -38,25 +38,25 @@ def main():
     #     print(i)
     # print()
 
-    list_of_dict = filter_by_state(dict_list_example, "CANCELED")
-    for i in list_of_dict:
-        print(i)
-    print("--------------")
-
-    list_of_dict = filter_by_state(dict_list_example, "WRONG")
-    for i in list_of_dict:
-        print(i)
-    print("--------------")
-
-    # list_of_dict = sort_by_date(dict_list_example)
+    # list_of_dict = filter_by_state(dict_list_example, "CANCELED")
     # for i in list_of_dict:
     #     print(i)
-    # print()
+    # print("--------------")
     #
-    # list_of_dict = sort_by_date(dict_list_example, False)
+    # list_of_dict = filter_by_state(dict_list_example, "WRONG")
     # for i in list_of_dict:
     #     print(i)
-    # print()
+    # print("--------------")
+
+    list_of_dict = sort_by_date(dict_list_example)
+    for i in list_of_dict:
+        print(i)
+    print()
+
+    list_of_dict = sort_by_date(dict_list_example, False)
+    for i in list_of_dict:
+        print(i)
+    print()
 
     # i = 'a'
     # while i != 'q':

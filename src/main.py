@@ -28,10 +28,10 @@ dict_list_example= [
 def main():
     """Основная функция"""
 
-    # print(get_date(date_old))
+    print(get_date(date_old))
 
-    for i in input_data:  # Тест
-        print(mask_account_card(i))
+    # for i in input_data:  # Тест
+    #     print(mask_account_card(i))
 
     # list_of_dict = filter_by_state(dict_list_example)
     # for i in list_of_dict:

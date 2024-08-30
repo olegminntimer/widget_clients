@@ -1,3 +1,5 @@
+import re
+
 from src import masks
 
 
@@ -26,5 +28,9 @@ def mask_account_card(account: str) -> str:
 
 def get_date(date_: str) -> str:
     """Возвращает дату в формате "ДД.ММ.ГГГГ" """
+    date_list = re.split(r'[-.,/]', date_)
 
-    return ".".join(date_[:10].split("-")[::-1])
+    if (len(date_list[0]) == 4 and date_list[0].isdigit() and len(date_list[1]) == 2 and date_list[1].isdigit() and len(date_list[2]) >=2) and date_list[2][:2].isdigit():
+        return date_list[2][:2]+"."+date_list[1]+"."+date_list[0]
+    else:
+        return "Неправильный формат даты!"

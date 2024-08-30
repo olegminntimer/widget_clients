@@ -28,7 +28,7 @@ dict_list_example= [
 def main():
     """Основная функция"""
 
-    print(get_date(date_old))
+    # print(get_date(date_old))
 
     # for i in input_data:  # Тест
     #     print(mask_account_card(i))
@@ -37,12 +37,17 @@ def main():
     # for i in list_of_dict:
     #     print(i)
     # print()
-    #
-    # list_of_dict = filter_by_state(dict_list_example, "CANCELED")
-    # for i in list_of_dict:
-    #     print(i)
-    # print()
-    #
+
+    list_of_dict = filter_by_state(dict_list_example, "CANCELED")
+    for i in list_of_dict:
+        print(i)
+    print("--------------")
+
+    list_of_dict = filter_by_state(dict_list_example, "WRONG")
+    for i in list_of_dict:
+        print(i)
+    print("--------------")
+
     # list_of_dict = sort_by_date(dict_list_example)
     # for i in list_of_dict:
     #     print(i)

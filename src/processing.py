@@ -1,7 +1,7 @@
 from typing import Any, Dict, List
 
 
-def filter_by_state(dict_list: List[Dict], state: str = "EXECUTED") -> List[Dict[Any, Any]]:
+def  filter_by_state(dict_list: List[Dict], state: str = "EXECUTED") -> List[Dict[Any, Any]]:
     """Функция возвращает список словарей по ключу state"""
 
     return list(filter(lambda v: v["state"] == state, dict_list))

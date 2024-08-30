@@ -24,7 +24,7 @@ dict_list_example= [
 
 
 def main():
-    """Основная вызывающая функция"""
+    """Основная функция"""
     print(get_date(date_old))
 
     for i in input_data:  # Тест

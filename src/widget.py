@@ -1,9 +1,6 @@
 from src import masks
 
 
-
-
-
 def mask_account_card(account: str) -> str:
     """Функция возвращает замаскированный номер"""
 

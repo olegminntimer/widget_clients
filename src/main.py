@@ -1,3 +1,4 @@
+from src.masks import get_mask_card_number, get_mask_account
 from src.processing import filter_by_state, sort_by_date
 from src.widget import get_date, mask_account_card
 
@@ -33,6 +34,12 @@ def main():
     # for i in input_data:  # Тест
     #     print(mask_account_card(i))
 
+    for i in ["1596837868705199", 1596837868705199, "159683786870519a",
+                  15968,"15968", "", "64686473678894779589", 64686473678894779589,
+                  "ad686473678894779589", "646864", 646864,]:  # Тест
+        print(get_mask_card_number(i) + "---" + get_mask_account(i))
+
+
     # list_of_dict = filter_by_state(dict_list_example)
     # for i in list_of_dict:
     #     print(i)
@@ -48,15 +55,15 @@ def main():
     #     print(i)
     # print("--------------")
 
-    list_of_dict = sort_by_date(dict_list_example)
-    for i in list_of_dict:
-        print(i)
-    print()
-
-    list_of_dict = sort_by_date(dict_list_example, False)
-    for i in list_of_dict:
-        print(i)
-    print()
+    # list_of_dict = sort_by_date(dict_list_example)
+    # for i in list_of_dict:
+    #     print(i)
+    # print()
+    #
+    # list_of_dict = sort_by_date(dict_list_example, False)
+    # for i in list_of_dict:
+    #     print(i)
+    # print()
 
     # i = 'a'
     # while i != 'q':

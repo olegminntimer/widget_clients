@@ -1,6 +1,7 @@
 import pytest
 
 from src.widget import mask_account_card, get_date
+from tests.conftest import account_number
 
 
 def test_mask_account_card():
@@ -30,4 +31,10 @@ def test_get_date():
     assert get_date("2024/03/1") == "Неправильный формат даты!"
     assert get_date("02:26:18.671407") == "Неправильный формат даты!"
     assert get_date("") == "Неправильный формат даты!"
+
+def test_mask_account_card_fixture(account_card):
+    assert mask_account_card(account_card) == "Maestro 1596 83** **** 5199"
+
+def test_get_date_fixture(date_f):
+    assert get_date(date_f) == "11.03.2024"
 

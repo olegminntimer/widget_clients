@@ -23,3 +23,9 @@ def test_get_mask_card_number(x, expected):
 ])
 def test_get_mask_account(x, expected):
     assert get_mask_account(x) == expected
+
+def test_get_mask_card_number_fixture(card_number):
+    assert get_mask_card_number(card_number) == "1596 83** **** 5199"
+
+def test_get_mask_account_fixture(account_number):
+    assert get_mask_account(account_number) == "**9589"

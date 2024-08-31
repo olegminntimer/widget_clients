@@ -23,14 +23,20 @@ def mask_account_card(account: str) -> str:
     elif len(account_list[-1]) == 20:
         new_account += masks.get_mask_account(account_list[-1])
 
-    return  new_account
+    return new_account
 
 
 def get_date(date_: str) -> str:
     """Возвращает дату в формате "ДД.ММ.ГГГГ" """
-    date_list = re.split(r'[-.,/]', date_)
+    date_list = re.split(r"[-.,/]", date_)
 
-    if (len(date_list[0]) == 4 and date_list[0].isdigit() and len(date_list[1]) == 2 and date_list[1].isdigit() and len(date_list[2]) >=2) and date_list[2][:2].isdigit():
-        return date_list[2][:2]+"."+date_list[1]+"."+date_list[0]
+    if (
+        len(date_list[0]) == 4
+        and date_list[0].isdigit()
+        and len(date_list[1]) == 2
+        and date_list[1].isdigit()
+        and len(date_list[2]) >= 2
+    ) and date_list[2][:2].isdigit():
+        return date_list[2][:2] + "." + date_list[1] + "." + date_list[0]
     else:
         return "Неправильный формат даты!"

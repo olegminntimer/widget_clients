@@ -30,6 +30,7 @@ def dict_list():
         {"id": 615064591, "state": "CANCELED", "date": "2018-10-14T08:21:33.419441"},
     ]
 
+
 @pytest.fixture
 def transactions():
     return [
@@ -78,4 +79,4 @@ def transactions():
             "from": "Visa Platinum 1246377376343588",
             "to": "Счет 14211924144426031657",
         },
-        ]
+    ]

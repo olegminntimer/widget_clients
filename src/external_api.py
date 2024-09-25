@@ -10,23 +10,13 @@ def get_convert(transaction_: dict) -> float:
 
     code = transaction_.get("operationAmount").get("currency").get("code")
     summ = transaction_.get("operationAmount").get("amount")
-
     if code == "RUB":
         return float(summ)
     else:
         load_dotenv()
-        url = "https://api.apilayer.com/exchangerates_data/convert"
-        payload = {
-            "amount": summ,
-            "from": code,
-            "to": "RUB"
-        }
-
         apikey = os.getenv("API_KEY")
         headers = {
             "apikey": apikey
         }
-
-        response = requests.get(url, headers=headers, params=payload)
-        result = response.json()
-        return round(float(result.get("result")), 2)
+        response_json = requests.get(f'https://api.apilayer.com/exchangerates_data/convert?from={code}&to=RUB&amount={summ}', headers=headers).json()
+        return response_json["result"]

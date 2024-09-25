@@ -1,15 +1,24 @@
 import json
+from json import JSONDecodeError
 
 
-def get_file(path_to_file: str) -> list:
-    ''' Функция принимает путь до файла и возвращает список словарей '''
+def get_json(path_to_file: str) -> list:
+    ''' Функция принимает путь до файла и возвращает данные в формате json '''
 
     try:
-        with open(path_to_file, 'r') as file:
-            data = json.load(file)
+        with open(path_to_file, encoding='utf-8') as f:
+            data = json.load(f)
             return data
-    except json.JSONDecodeError:
+    except FileNotFoundError:
         return []
+    except JSONDecodeError:
+        return []
+    except ValueError:
+        return []
+
+
+
+
 
 
 

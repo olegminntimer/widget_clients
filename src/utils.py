@@ -11,8 +11,6 @@ def get_json(path_to_file: str) -> list:
             return data
     except FileNotFoundError:
         return []
-    except JSONDecodeError:
-        return []
     except ValueError:
         return []
 

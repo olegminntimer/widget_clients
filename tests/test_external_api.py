@@ -1,8 +1,6 @@
 from unittest.mock import Mock, patch
 
-from main import trans_RUB
 from src.external_api import get_convert
-# from tests.conftest import transactions_
 
 
 def test_get_convert():

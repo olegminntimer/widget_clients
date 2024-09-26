@@ -1,4 +1,5 @@
 import json
+from json import JSONDecodeError
 
 
 def get_json(path_to_file: str) -> list:
@@ -8,7 +9,10 @@ def get_json(path_to_file: str) -> list:
         with open(path_to_file, encoding="utf-8") as f:
             data = json.load(f)
             return data
+    except JSONDecodeError:
+        return []
     except FileNotFoundError:
         return []
     except ValueError:
         return []
+

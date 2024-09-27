@@ -3,8 +3,9 @@ from logging import DEBUG
 from pathlib import Path
 from typing import Union
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-file_name = str(BASE_DIR / "logs" / "masks.log")
+# Определим абсолютный путь до файла в папке logs
+base_dir = Path(__file__).resolve().parent.parent
+file_name = str(base_dir / "logs" / "masks.log")
 
 logger = logging.getLogger(__name__)
 file_handler = logging.FileHandler(file_name)

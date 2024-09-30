@@ -1,0 +1,8 @@
+2024-09-26 21:55:47,188 masks.py DEBUG: Validating the card
+2024-09-26 21:55:47,189 masks.py DEBUG: Successful verification
+2024-09-26 21:55:47,189 masks.py DEBUG: Validating the account
+2024-09-26 21:55:47,189 masks.py DEBUG: Successful verification
+2024-09-26 21:56:15,387 masks.py DEBUG: Validating the card
+2024-09-26 21:56:15,387 masks.py ERROR: Incorrect format
+2024-09-26 21:56:15,388 masks.py DEBUG: Validating the account
+2024-09-26 21:56:15,388 masks.py ERROR: Incorrect format

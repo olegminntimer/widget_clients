@@ -4,12 +4,12 @@ from pathlib import Path
 import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent  # print(BASE_DIR) #C:\Users\remus\PycharmProjects\widget_clients
-file_name_csv = str(
-    BASE_DIR / "data" / "transactions.csv"
-)  # C:\Users\remus\PycharmProjects\widget_clients\data\operations.json
-file_name_xlsx = str(
-    BASE_DIR / "data" / "transactions_excel.xlsx"
-)  # C:\Users\remus\PycharmProjects\widget_clients\data\operations.json
+# file_name_csv = str(
+#     BASE_DIR / "data" / "transactions.csv"
+# )  # C:\Users\remus\PycharmProjects\widget_clients\data\operations.json
+# file_name_xlsx = str(
+#     BASE_DIR / "data" / "transactions_excel.xlsx"
+# )  # C:\Users\remus\PycharmProjects\widget_clients\data\operations.json
 
 logging.basicConfig(
     level=logging.DEBUG,

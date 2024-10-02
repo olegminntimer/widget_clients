@@ -82,27 +82,23 @@ def transactions():
         },
     ]
 
+
 @pytest.fixture
 def transactions_dict():
     return {
-            "id": 441945886,
-            "state": "EXECUTED",
-            "date": "2019-08-26T10:50:58.294041",
-            "operationAmount": {
-              "amount": "31957.58",
-              "currency": {
-                "name": "руб.",
-                "code": "RUB"
-              }
-            },
-            "description": "Перевод организации",
-            "from": "Maestro 1596837868705199",
-            "to": "Счет 64686473678894779589"
-            }
+        "id": 441945886,
+        "state": "EXECUTED",
+        "date": "2019-08-26T10:50:58.294041",
+        "operationAmount": {"amount": "31957.58", "currency": {"name": "руб.", "code": "RUB"}},
+        "description": "Перевод организации",
+        "from": "Maestro 1596837868705199",
+        "to": "Счет 64686473678894779589",
+    }
+
 
 @pytest.fixture
 def test_df_csv_xlsx() -> pd.DataFrame:
-    """ Тестовый DataFrame для read_csv_pandas """
+    """Тестовый DataFrame для read_csv_pandas"""
     test_dict = {
         "id": [650703.0, 3598919.0],
         "state": ["EXECUTED", "EXECUTED"],
@@ -112,6 +108,6 @@ def test_df_csv_xlsx() -> pd.DataFrame:
         "currency_code": ["PEN", "COP"],
         "from": ["Счет 58803664561298323391", "Discover 3172601889670065"],
         "to": ["Счет 39745660563456619397", "Discover 0720428384694643"],
-        "description": ["Перевод организации", "Перевод с карты на карту"]
+        "description": ["Перевод организации", "Перевод с карты на карту"],
     }
     return pd.DataFrame(test_dict)

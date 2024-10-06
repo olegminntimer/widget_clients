@@ -5,8 +5,12 @@ def filter_by_currency(dict_list: list, currency: str) -> Iterator:
     """Функция-генератор, которая выдает транзакции из входного списка
     транзакций dict_list в соответствии с заданной валютой currency"""
     for d in dict_list:
-        if d.get("operationAmount").get("currency").get("code") == currency:
-            yield d
+        try:
+            if d.get("operationAmount").get("currency").get("code") == currency:
+                yield d
+        except AttributeError:
+            if d.get("currency_code") == currency:
+                yield d
 
 
 def transaction_descriptions(dict_list: list) -> Iterator:

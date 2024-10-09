@@ -1156,3 +1156,279 @@
 2024-10-02 13:04:35,056 masks.py ERROR: Incorrect format
 2024-10-02 13:04:35,065 masks.py DEBUG: Validating the card
 2024-10-02 13:04:35,065 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,452 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,452 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,453 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,453 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,454 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,454 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,455 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,455 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,456 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,456 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,457 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,457 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,458 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,458 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,459 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,460 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,461 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,461 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,462 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,462 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,463 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,463 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,464 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,464 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,464 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,466 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,466 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,467 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,503 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,503 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,503 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,503 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,504 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,504 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,505 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,505 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,506 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,506 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,507 masks.py DEBUG: Validating the account
+2024-10-06 14:11:57,507 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,508 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,509 masks.py DEBUG: Successful verification
+2024-10-06 14:11:57,510 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,510 masks.py ERROR: Incorrect format
+2024-10-06 14:11:57,512 masks.py DEBUG: Validating the card
+2024-10-06 14:11:57,512 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,739 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,739 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,740 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,740 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,742 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,742 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,743 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,743 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,744 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,744 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,745 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,745 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,746 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,746 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,747 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,747 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,748 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,749 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,749 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,749 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,750 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,750 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,751 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,751 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,752 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,752 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,753 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,753 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,779 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,779 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,779 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,779 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,780 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,780 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,781 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,781 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,782 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,782 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,783 masks.py DEBUG: Validating the account
+2024-10-06 14:13:21,783 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,784 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,784 masks.py DEBUG: Successful verification
+2024-10-06 14:13:21,785 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,785 masks.py ERROR: Incorrect format
+2024-10-06 14:13:21,788 masks.py DEBUG: Validating the card
+2024-10-06 14:13:21,788 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,526 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,526 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,527 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,527 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,528 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,528 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,529 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,529 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,530 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,530 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,531 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,531 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,532 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,532 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,533 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,533 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,534 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,534 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,535 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,535 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,536 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,536 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,538 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,538 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,539 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,539 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,540 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,541 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,562 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,562 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,562 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,562 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,563 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,563 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,564 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,564 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,565 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,565 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,566 masks.py DEBUG: Validating the account
+2024-10-06 14:18:08,566 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,567 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,567 masks.py DEBUG: Successful verification
+2024-10-06 14:18:08,568 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,568 masks.py ERROR: Incorrect format
+2024-10-06 14:18:08,572 masks.py DEBUG: Validating the card
+2024-10-06 14:18:08,572 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,733 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,734 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,736 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,736 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,737 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,737 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,739 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,739 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,741 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,742 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,744 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,744 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,746 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,746 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,748 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,748 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,750 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,750 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,752 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,752 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,754 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,754 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,756 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,756 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,758 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,758 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,759 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,759 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,799 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,799 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,799 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,799 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,801 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,801 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,803 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,803 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,805 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,805 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,807 masks.py DEBUG: Validating the account
+2024-10-06 14:27:47,807 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,809 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,809 masks.py DEBUG: Successful verification
+2024-10-06 14:27:47,811 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,811 masks.py ERROR: Incorrect format
+2024-10-06 14:27:47,816 masks.py DEBUG: Validating the card
+2024-10-06 14:27:47,817 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,068 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,068 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,068 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,068 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,069 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,069 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,070 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,070 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,071 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,071 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,072 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,072 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,073 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,073 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,074 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,075 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,076 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,076 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,077 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,077 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,078 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,079 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,079 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,079 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,080 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,080 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,081 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,081 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,104 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,104 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,104 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,104 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,105 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,105 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,106 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,106 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,107 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,107 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,108 masks.py DEBUG: Validating the account
+2024-10-06 14:36:08,108 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,109 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,110 masks.py DEBUG: Successful verification
+2024-10-06 14:36:08,111 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,111 masks.py ERROR: Incorrect format
+2024-10-06 14:36:08,113 masks.py DEBUG: Validating the card
+2024-10-06 14:36:08,113 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,618 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,618 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,620 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,620 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,622 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,622 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,624 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,624 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,626 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,626 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,628 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,628 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,630 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,630 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,633 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,633 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,634 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,634 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,636 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,636 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,637 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,638 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,639 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,640 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,641 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,641 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,643 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,643 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,682 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,682 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,682 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,682 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,684 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,684 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,686 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,686 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,687 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,687 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,689 masks.py DEBUG: Validating the account
+2024-10-06 14:36:27,689 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,691 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,691 masks.py DEBUG: Successful verification
+2024-10-06 14:36:27,693 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,693 masks.py ERROR: Incorrect format
+2024-10-06 14:36:27,698 masks.py DEBUG: Validating the card
+2024-10-06 14:36:27,698 masks.py DEBUG: Successful verification

@@ -23,6 +23,22 @@ def get_json(path_to_file: str) -> list:
         with open(path_to_file, encoding="utf-8") as f:
             data = json.load(f)
             logger.debug("The data was considered")
+            # data_out = []
+            # for i in data:
+            #     if 'id' in i:
+            #         record_out = {
+            #             'id' : i['id'],
+            #             'state' : i['state'],
+            #             'date' : i['date'],
+            #             'amount' : i["operationAmount"]["amount"],
+            #             'currency_name' : i["operationAmount"]["currency"]["name"],
+            #             'currency_code' : i["operationAmount"]["currency"]["code"],
+            #             'to' : i['to'],
+            #             'description' : i['description']
+            #         }
+            #         if 'from' in i:
+            #             record_out['from'] = i['from']
+            #         data_out.append(record_out)
             return data
     except JSONDecodeError:
         logger.error("JSONDecodeError - Invalid JSON data.")
